@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(142, 227, 174);
+    background-color: rgb(107, 190, 172);
 }
 
 /*diseño global, esta parte es para el navbar*/
@@ -9,7 +9,7 @@ li{
 
 .head1{
     background-color: rgb(70, 70, 213);
-    font-size: x-large;
+    font-size: medium;
 }
 
 .logo_elca{
