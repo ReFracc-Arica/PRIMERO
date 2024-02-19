@@ -1,0 +1,4 @@
+
+cambios o sugerencias aqui, hay cosas que se ven raro porque aun estoy viendo y probando, no megusta el fondo ni los logos de social media que agrege
+el componente que modifique es el app.component, este solamente afecta las cosas precargadas de la pagina, 
+si quieres haz el componente de brother con cards, displayers o heroes, ve tu si necesitas ayuda dime

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+
+
+  <head>
+    <meta charset="UTF-8">
+    <!-- Esta es la barra de navegación completa -->
+
+    <!-- Encabezado de la página -->
+    <header class="p-3 mb-3 border-bottom head1">
+      <div class="container">
+        <!-- Contenedor para alinear y limitar el contenido -->
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start cont_logo">
+          <!-- Logo de la empresa -->
+          <img src="../assets/img/LOGO.png" class="logo_elca" alt="">&nbsp;
+          <!-- Enlace al inicio con un icono de Bootstrap -->
+          <a href="" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+
+          <!-- Contenido de la barra de navegación -->
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <!-- Elementos de navegación -->
+            <li><a href="#" class="nav-link px-2 link-body-emphasis">¿Quienes somos?</a></li>&nbsp;
+            <li><a href="#" class="nav-link px-2 link-body-emphasis">Inventario</a></li>&nbsp;
+
+            <!-- Lista desplegable de marcas asociadas -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle link-body-emphasis" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Marcas Asociadas <i class="bi bi-chevron-down"></i>
+              </a>
+              <!-- Opciones de marcas asociadas -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Toshiba</a></li>
+                <li><a class="dropdown-item" href="#">Brother</a></li>
+                <li><a class="dropdown-item" href="#">Kyocera</a></li>
+              </ul>
+            </li>&nbsp;
+
+            <!-- Enlace a la sección de productos -->
+            <li><a href="#" class="nav-link px-2 link-body-emphasis productos">Productos</a></li>
+          </ul>
+
+          <!-- Formulario de búsqueda -->
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <div class="form-control buscador">
+              <!-- Icono de búsqueda -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-search icono_busc" viewBox="0 0 16 16">
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+              </svg>
+              <!-- Campo de entrada para la búsqueda -->
+              <input type="search" class="form-control imp_busc" placeholder="Buscar" aria-label="Search">
+            </div>
+          </form>
+
+          <!-- Menú desplegable del usuario -->
+          <div class="dropdown text-end">
+            <!-- Botón para desplegar el menú -->
+            <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <!-- Icono de usuario -->
+              <img src="../assets/img/user_icon.png" alt="mdo" width="32" height="32" class="rounded-circle">
+            </a>
+            <!-- Opciones del menú de usuario -->
+            <ul class="dropdown-menu text-small">
+              <!-- Opción de inicio de sesión con icono -->
+              <li><a class="dropdown-item" href="#">Iniciar Sesión
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0z" />
+                    <path fill-rule="evenodd"
+                      d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z" />
+                  </svg>
+                </a></li>
+              <!-- Opción de otras opciones -->
+              <li><a class="dropdown-item" href="#">Opciones</a></li>
+              <!-- Opción de registro -->
+              <li><a class="dropdown-item" href="#">Registrarse</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- final de la cabecera-->
+    <hr>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    esta division es para ver donde esta el footer y si responde al contenido medio de la pagina--
+    <router-outlet></router-outlet>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <hr>
+
+
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <!-- Sección "Home" y "Features" -->
+          <div class="col-12 col-md-6">
+            <div class="col-md-6 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Sección del formulario de suscripción -->
+          <div class="col-12 col-md-6 mb-3 email_help">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+
+            <div class="cont_social">
+              <ul class="social_disp">
+                <a href="">
+                  <li href="#" class="bi bi-instagram"></li>
+                </a>
+                <a href="https://www.youtube.com/@ElcaRedcom">
+                  <li href="https://www.youtube.com/@ElcaRedcom" class="bi bi-youtube"></li>
+                </a>
+                <a href="">
+                  <li href="#" class="bi bi-facebook"></li>
+                </a>
+                <a href="mailto:facturacionelca@gmail.com">
+                  <li href="#" class="bi bi-envelope"></li>
+                </a>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- esta es la separacion de la parte de mas abajo-->
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>© 2024 Company, Inc. All rights reserved.</p>
+
+        </div>
+      </footer>
+    </div>

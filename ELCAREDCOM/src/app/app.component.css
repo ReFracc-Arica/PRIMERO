@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(142, 227, 174);
+}
+
+/*diseño global, esta parte es para el navbar*/
+li{
+    margin-right:10px;
+}
+
+.head1{
+    background-color: rgb(70, 70, 213);
+    font-size: x-large;
+}
+
+.logo_elca{
+    width: 10%;
+    min-width:50px;
+    max-width:110px;
+}
+
+.buscador{
+    background-color: rgb(70, 70, 213);
+    border-color: rgb(70,70,213);
+    display: flex;
+}
+
+.icono_busc{
+    display: flex;
+    margin: 5%, 5%, 5%, 5%;
+    width:20%;
+    height:auto;
+    margin-right: 10%;
+    min-width:15px ;
+    max-width:25px;
+}
+
+
+/* diseño global, esta parte es para el footer de la pag */
+
+.email_help{
+    display: flex;
+}
+
+.cont_social{
+
+}
+
+.social_disp{
+    color: black;
+    margin-left:30%;
+    margin-right:0px;
+    list-style: none;
+}
