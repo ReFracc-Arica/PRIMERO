@@ -36,13 +36,13 @@
     max-width:100% ; 
 }
 .lgprov:hover{
-    transform: scale(1.2);
+    transform: scale(1.05);
     transition: .9s;
     cursor: pointer;
     color: rgb(34, 178, 255); 
 }
 .modif:hover{
-    transform: scale(0.95);
+    transform: scale(1.05);
     transition: .9s;
     cursor: pointer; 
 }
