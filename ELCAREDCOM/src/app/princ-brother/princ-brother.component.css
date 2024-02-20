@@ -8,14 +8,53 @@
     font-size: small;
 }
 
+
 .imgimpr{
     display: flex;
-    margin-left: -15px;    
+    margin-left: -04px;
+    min-height:30px;
+    max-height: 100%;
+    max-width:100% ;
 }
 
 .imgimpr:hover{
-    color: black;
     transform: scale(1.2);
-    transition: .5s;
+    transition: .9s;
     cursor: pointer;
+}
+
+.divmagico{
+    display: flex;
+    justify-content: center;
+    margin-top: -140px;
+    padding: 60PX;
+    margin-bottom: 0px ;
+}
+.lgprov{
+    min-height:30px;
+    max-height: 100%;
+    max-width:100% ; 
+}
+.lgprov:hover{
+    transform: scale(1.2);
+    transition: .9s;
+    cursor: pointer;
+    color: rgb(34, 178, 255); 
+}
+.modif:hover{
+    transform: scale(0.95);
+    transition: .9s;
+    cursor: pointer; 
+}
+
+.lead{
+    color: black;
+}
+
+.display-5{
+    color: rgb(88, 88, 88);
+}
+
+.display-5:hover{
+    color: rgb(34, 178, 255);
 }

@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(107, 190, 172);
+    background-color: beige;
 }
 
 /*diseño global, esta parte es para el navbar*/
@@ -8,7 +8,7 @@ li{
 }
 
 .head1{
-    background-color: rgb(70, 70, 213);
+    background-color: rgb(20, 90, 196);
     font-size: medium;
 }
 
@@ -19,8 +19,8 @@ li{
 }
 
 .buscador{
-    background-color: rgb(70, 70, 213);
-    border-color: rgb(70,70,213);
+    background-color: rgb(20, 90, 196);
+    border-color: rgb(20, 90, 196);
     display: flex;
 }
 
