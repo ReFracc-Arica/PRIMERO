@@ -14,8 +14,11 @@ li{
 
 .logo_elca{
     width: 10%;
-    min-width:50px;
-    max-width:110px;
+    min-width:100px;
+    max-width:240px;
+    min-height:100px;
+    max-width: 240px;
+    border-radius: 15%;
 }
 
 .buscador{
@@ -36,10 +39,6 @@ li{
 
 
 /* diseño global, esta parte es para el footer de la pag */
-
-.email_help{
-    display: flex;
-}
 
 .cont_social{
     display: flex;
