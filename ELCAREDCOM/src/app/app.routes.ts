@@ -1,16 +1,19 @@
 import { Routes } from '@angular/router';
 import { PrincBrotherComponent } from './princ-brother/princ-brother.component';
 import { ToshibaComponent } from './toshiba/toshiba.component';
-import { indexComponent } from './principal/principal.component';
+import { IndexComponent } from './principal/principal.component';
 import { KyoceraComponent } from './kyocera/kyocera.component';
 import { QuienesSomosComponent } from './principal/Quienes-Somos/quienes-somos.component';
 
-
-export const routes: Routes = ([
-    {path:'brother', component: PrincBrotherComponent},
-    {path:"toshiba", component: ToshibaComponent},
-    {path:"kyocera", component: KyoceraComponent},
-    {path:"index", component: indexComponent},
-    {path:"who_i_am", component: QuienesSomosComponent}
-
-])
+export const routes: Routes = [
+    { path: 'brother', component: PrincBrotherComponent },
+    { path: 'toshiba', component: ToshibaComponent },
+    { path: 'kyocera', component: KyoceraComponent },
+    { 
+        path: 'index', 
+        component: IndexComponent,
+        children: [
+            { path: 'QuienesSomos', component: QuienesSomosComponent }
+        ]
+    },
+];
