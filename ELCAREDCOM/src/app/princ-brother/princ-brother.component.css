@@ -10,7 +10,12 @@
 
 .imgimpr{
     display: flex;
-    margin-left: -15px;    
+    margin-left: -10px;  
+    min-height:30px;
+    min-width: 30px;
+    max-height: 100%;
+    max-width:100% ;
+    
 }
 
 .imgimpr:hover{

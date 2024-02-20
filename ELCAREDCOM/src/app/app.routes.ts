@@ -10,10 +10,7 @@ export const routes: Routes = [
     { path: 'toshiba', component: ToshibaComponent },
     { path: 'kyocera', component: KyoceraComponent },
     { 
-        path: 'index', 
-        component: IndexComponent,
-        children: [
-            { path: 'QuienesSomos', component: QuienesSomosComponent }
-        ]
+    path: 'index', component: IndexComponent,
     },
+    { path: 'index/QuienesSomos', component: QuienesSomosComponent },
 ];
