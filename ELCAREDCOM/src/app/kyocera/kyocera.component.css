@@ -26,9 +26,9 @@
 .divmagico{
     display: flex;
     justify-content: center;
-    margin-top: -250px;
-    padding: 60PX;
-    margin-bottom: 0px ;
+    margin-top: -230px;
+    padding: 20px;
+    margin-bottom: -100px ;
 }
 .lgprov{
     min-height:30px;
