@@ -5,8 +5,9 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './princ-brother.component.html',
-  styleUrl: './princ-brother.component.css'
+  styleUrls: ['./princ-brother.component.css']
 })
 export class PrincBrotherComponent {
+  
 
 }
