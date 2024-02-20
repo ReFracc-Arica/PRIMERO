@@ -1,9 +1,9 @@
 import { Routes } from '@angular/router';
-import { PrincBrotherComponent } from './princ-brother/princ-brother.component';
-import { ToshibaComponent } from './toshiba/toshiba.component';
-import { IndexComponent } from './principal/principal.component';
-import { KyoceraComponent } from './kyocera/kyocera.component';
-import { QuienesSomosComponent } from './principal/Quienes-Somos/quienes-somos.component';
+import { PrincBrotherComponent } from '../princ-brother/princ-brother.component';
+import { ToshibaComponent } from '../toshiba/toshiba.component';
+import { IndexComponent } from '../principal/principal.component';
+import { KyoceraComponent } from '../kyocera/kyocera.component';
+import { QuienesSomosComponent } from '../principal/Quienes-Somos/quienes-somos.component';
 
 export const routes: Routes = [
     { path: 'brother', component: PrincBrotherComponent },
@@ -14,3 +14,5 @@ export const routes: Routes = [
     },
     { path: 'index/QuienesSomos', component: QuienesSomosComponent },
 ];
+
+

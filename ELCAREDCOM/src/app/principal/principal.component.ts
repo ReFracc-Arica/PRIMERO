@@ -9,6 +9,6 @@ import {QuienesSomosComponent} from './Quienes-Somos/quienes-somos.component';
   templateUrl: './principal.component.html',
   styleUrl: './principal.component.css'
 })
-export class indexComponent {
+export class IndexComponent {
 
 }
