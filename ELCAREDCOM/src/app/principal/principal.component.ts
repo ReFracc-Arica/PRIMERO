@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {QuienesSomosComponent} from './Quienes-Somos/quienes-somos.component';
+/* lo anterior da problema solo porque tenemos un archivo que no se lee nunca*/
 
 @Component({
   selector: 'app-principal',
@@ -7,6 +9,6 @@ import { Component } from '@angular/core';
   templateUrl: './principal.component.html',
   styleUrl: './principal.component.css'
 })
-export class PrincipalComponent {
+export class indexComponent {
 
 }
