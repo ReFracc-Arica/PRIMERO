@@ -42,7 +42,7 @@
     cursor: pointer;
     color: rgb(34, 178, 255); 
 }
-.modif:hover{
+.cards:hover{
     transform: scale(1.05);
     transition: .9s;
     cursor: pointer; 
