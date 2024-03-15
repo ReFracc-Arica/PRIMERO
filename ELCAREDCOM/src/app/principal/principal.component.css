@@ -1,0 +1,17 @@
+.link_tab{
+
+    border-radius: 50%;
+    text-align: left;
+
+}
+.table_cont {
+    margin: 6%;
+    border-radius: 10%;
+    height:90%;
+    width:90%;
+    min-width:150px;
+    max-width:1480px ;
+    max-height:163px;
+    min-height:40px;
+
+}
