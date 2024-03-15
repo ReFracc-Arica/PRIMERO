@@ -10,6 +10,7 @@ li{
 .head1{
     background-color: rgb(20, 90, 196);
     font-size: medium;
+
 }
 
 .logo_elca{
@@ -50,4 +51,7 @@ li{
     margin-left:30%;
     margin-right:0px;
     list-style: none;
+}
+.contenido_principal{
+    margin-top:180px;
 }

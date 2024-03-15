@@ -9,8 +9,8 @@
     <!-- Esta es la barra de navegación completa -->
 
     <!-- Encabezado de la página -->
-    <header class="p-3 mb-3 border-bottom head1">
-      <div class="container">
+    <header class="p-3 mb-3 border-bottom head1 ">
+      <div class="container ">
         <!-- Contenedor para alinear y limitar el contenido -->
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start cont_logo">
           <!-- Logo de la empresa -->
@@ -29,7 +29,7 @@
           <!-- Contenido de la barra de navegación -->
           <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
             <!-- Elementos de navegación -->
-            <li><a href="./principal/principal.component.html" class="nav-link px-2 link-body-emphasis">¿Quienes  somos?</a></li>&nbsp;
+            <li><a href="/QuienesSomos" class="nav-link px-2 link-body-emphasis">¿Quienes  somos?</a></li>&nbsp;
             <li><a href="#" class="nav-link px-2 link-body-emphasis">Inventario</a></li>&nbsp;
 
             <!-- Lista desplegable de marcas asociadas -->
@@ -40,9 +40,9 @@
               </a>
               <!-- Opciones de marcas asociadas -->
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Toshiba</a></li>
-                <li><a class="dropdown-item" href="#">Brother</a></li>
-                <li><a class="dropdown-item" href="#">Kyocera</a></li>
+                <li><a class="dropdown-item" href="/toshiba">Toshiba</a></li>
+                <li><a class="dropdown-item" href="/brother">Brother</a></li>
+                <li><a class="dropdown-item" href="/kyocera">Kyocera</a></li>
               </ul>
             </li>&nbsp;
 
@@ -95,23 +95,10 @@
     </header>
     <!-- final de la cabecera-->
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div>
+    <div class="contenido_principal">
     <router-outlet>
     </router-outlet>
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
+  </div>
 
 
     

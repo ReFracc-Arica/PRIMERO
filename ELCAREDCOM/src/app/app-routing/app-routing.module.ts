@@ -9,10 +9,8 @@ export const routes: Routes = [
     { path: 'brother', component: PrincBrotherComponent },
     { path: 'toshiba', component: ToshibaComponent },
     { path: 'kyocera', component: KyoceraComponent },
-    { 
-    path: 'index', component: IndexComponent,
-    },
-    { path: 'index/QuienesSomos', component: QuienesSomosComponent },
+    { path: 'index', component: IndexComponent },
+    { path: 'QuienesSomos', component: QuienesSomosComponent },
 ];
 
 
